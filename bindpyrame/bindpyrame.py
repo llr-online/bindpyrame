@@ -6,7 +6,7 @@ def sendcmd(host,port,cmd,*args):
     
     command="<cmd name=\"%s\">" % cmd
     for i in args:
-        command+= "<param>\"%s\"</param>" % i
+        command+= "<param>%s</param>" % i
     command+="</cmd>\n"
 
     try:
