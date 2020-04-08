@@ -4,8 +4,8 @@ Simple module in pure python3 to connect to pyrame http://llr.in2p3.fr/sites/pyr
 
 Can be installed through pip on testpypi for now
 
-     pip install -i https://test.pypi.org/simple/ bindpyrame-llr-online
+     pip install bindpyrame
 
-The status of this package can be checked at https://test.pypi.org/project/bindpyrame-llr-online/
+The status of this package can be checked at https://pypi.org/project/bindpyrame
 
 

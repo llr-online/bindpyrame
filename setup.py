@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="bindpyrame_llr-online", 
-    version="1.0",
+    name="bindpyrame", 
+    version="0.1",
     author="llr-online",
     author_email="lorenzo.bernardi@llr.in2p3.fr",
     description="A module to bind to pyrame in pure python 3",
