@@ -4,3 +4,5 @@ dist
 bindpyrame_llr_online.egg-info/
 bindpyrame_venv/*
 build/
+.idea/
+bindpyrame.egg-info/
