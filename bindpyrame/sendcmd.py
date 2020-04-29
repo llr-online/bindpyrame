@@ -3,12 +3,13 @@
 
 Basic function to bind to pyrame. It implements the pyrame protocol to communicate with pyrame's modules.
 
-Example:
-    Typical use of this function is::
+For example, to use the function onearg  with test_onearg argument function of the cmd_test module listening on port localhost:9007::
 
-       sendcmd
+       import bindpyrame
 
 
+       bindpyrame.sendcmd("localhost",9007,"onearg_test","test_onearg")
+       => (1, u'onearg(test_onearg)')
 
 """
 
