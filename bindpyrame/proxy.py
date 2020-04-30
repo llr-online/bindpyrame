@@ -250,9 +250,7 @@ class PyrameProxy(object):
             
             # logging.debug("calling self.__sendcmd with %s %s" % (name,str(args)))
             # logging.debug("%s in %s " % (name,str(name in self._api.keys())))
-            if name in self._args_default.keys():
-                print("we should have a key")
-            
+
             if name in list(self._api.keys()):
                 logging.debug("known function expecting args %s" % self._api[name])
                 nargs = []
