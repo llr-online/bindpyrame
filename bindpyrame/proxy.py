@@ -136,10 +136,12 @@ class PyrameProxy(object):
             n, a = f.split(":")
             # the function name is followed by the module name
             function_name = n.replace("_"+self.module_name, "")
-            function_args = a.split(",")
-            self._api[function_name] = function_args
             if a:
+                function_args = a.split(",")
+                self._api[function_name] = function_args
                 args_list.extend(function_args)
+            else:
+                self._api[function_name] = []
         self._args_list = list(set(args_list))
         for i in self._args_list:
             self._args_default[i] = None
