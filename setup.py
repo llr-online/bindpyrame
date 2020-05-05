@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="bindpyrame", 
-    version="0.2",
+    version="0.3",
     author="llr-online",
     author_email="lorenzo.bernardi@llr.in2p3.fr",
     description="A module to bind to pyrame in pure python 3",
